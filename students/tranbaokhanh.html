@@ -4,253 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Trần Bảo Khanh</title>
-    <!-- Sử dụng Font Awesome để thêm icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            display: flex;
-            width: 900px;
-            margin: 20px auto;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .left-column {
-            width: 35%;
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 20px;
-        }
-        .right-column {
-            width: 65%;
-            padding: 20px;
-            position: relative;
-        }
-        .header {
-            background-color: #f39c12;
-            padding: 10px 20px;
-            text-align: center;
-            color: #fff;
-            position: relative;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 28px;
-            text-transform: uppercase;
-        }
-        .header p {
-            margin: 5px 0 0;
-            font-size: 16px;
-            text-transform: uppercase;
-        }
-        .profile-img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            border: 3px solid #fff;
-        }
-        .upload-container {
-            position: absolute;
-            top: 120px;
-            right: 20px;
-            text-align: center;
-            font-size: 12px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            font-size: 16px;
-            text-transform: uppercase;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-        .left-column .section h2 {
-            color: #f39c12;
-            border-bottom: 2px solid #f39c12;
-        }
-        .right-column .section h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #2c3e50;
-        }
-        .contact-info p {
-            margin: 10px 0;
-            font-size: 14px;
-            display: flex;
-            align-items: center;
-        }
-        .contact-info p i {
-            margin-right: 10px;
-            color: #f39c12;
-            width: 20px;
-        }
-        .description, .commitment {
-            font-size: 14px;
-            line-height: 1.5;
-        }
-        .activities p, .timeline-item p {
-            margin: 5px 0;
-            font-size: 14px;
-        }
-        .skills ul, .certifications ul {
-            list-style-type: disc;
-            padding-left: 20px;
-            font-size: 14px;
-        }
-        .skills ul li, .certifications ul li {
-            margin: 5px 0;
-        }
-        .timeline-item {
-            margin-bottom: 15px;
-        }
-        .timeline-item strong {
-            font-weight: bold;
-        }
-        .timeline-item i {
-            font-style: italic;
-        }
-        .timeline-item ul {
-            list-style-type: disc;
-            padding-left: 20px;
-            font-size: 14px;
-        }
-        .timeline-item ul li {
-            margin: 5px 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Cột trái -->
-        <div class="left-column">
-            <div class="section">
-                <h2>THÔNG TIN CÁ NHÂN</h2>
-                <div class="contact-info">
-                    <p><i class="fas fa-calendar-alt"></i> Năm sinh: 15/04/2003</p>
-                    <p><i class="fas fa-phone"></i> 0773159764</p>
-                    <p><i class="fas fa-envelope"></i> dfj33231@gmail.com</p>
-                    <p><i class="fas fa-link"></i> tranbaokhanh.profile</p>
-                    <p><i class="fas fa-map-marker-alt"></i> 123-30 khu phố Bình Đưng 1, P. An Bình, Biên Hòa</p>
-                </div>
-            </div>
-
-            <div class="section">
-                <h2>MÔ TẢ BẢN THÂN</h2>
-                <p class="description">Tôi một người năng động, không ngại khó khăn hay bất kỳ thử thách nào trong mọi lĩnh vực. Tôi luôn cố gắng hết mình để hoàn thành tốt các công việc được giao và đạt mục tiêu đã đề ra.</p>
-            </div>
-
-            <div class="section">
-                <h2>HOẠT ĐỘNG</h2>
-                <p>16/12/2023: Hội thảo công nghệ thông tin</p>
-                <p>25/10/2023: Hội thảo kiếm việc làm và phát triển chất lượng phần mềm</p>
-            </div>
-
-            <div class="section">
-                <h2>LỜI CAM KẾT</h2>
-                <p class="commitment">Tôi xin cam kết những điều trên là đúng sự thật</p>
-            </div>
-
-            <div class="section">
-                <h2>CÁC KỸ NĂNG</h2>
-                <ul class="skills">
-                    <li>Kỹ năng chuyên môn</li>
-                    <li>Kỹ năng mềm: giao tiếp, làm việc nhóm, quản lý thời gian</li>
-                    <li>Thành thạo ngoại ngữ: Tiếng Anh</li>
-                    <li>Có kinh nghiệm về HTML, CSS</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Cột phải -->
-        <div class="right-column">
-            <div class="header">
-                <h1>TRẦN BẢO KHANH</h1>
-                <p>MOBILE APP DEVELOPER</p>
-            </div>
-
-            <div class="section">
-                <img id="profileImage" class="profile-img" src="https://via.placeholder.com/100" alt="Ảnh hồ sơ">
-                <div class="upload-container">
-                    <input type="file" id="imageUpload" accept="image/*" onchange="loadImage(event)">
-                </div>
-            </div>
-
-            <div class="section" style="margin-top: 60px;">
-                <h2>MỤC TIÊU NGHỀ NGHIỆP</h2>
-                <p>Với phương châm "Đón nhận thách thức" của công ty thì tôi luôn cố gắng hết mình để phát triển và triển khai những dự án mang giá trị lớn nhất cho công ty.</p>
-            </div>
-
-            <div class="section">
-                <h2>KINH NGHIỆM LÀM VIỆC</h2>
-                <div class="timeline-item">
-                    <ul>
-                        <li><strong>Đợt ăn chuyên ngành</strong> <br>
-                            <i>back-end developer</i> <br>
-                            <i>chưa có kinh nghiệm làm việc thực tế</i> <br>
-                            15/3/2023
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="section">
-                <h2>HỌC VẤN</h2>
-                <div class="timeline-item">
-                    <ul>
-                        <li><strong>Đại học Công Nghệ TP. HCM</strong> <br>
-                            Chồng nghề thông tin/tông nghệ <br>
-                            2021 - 2025 <br>
-                            Đang là sinh viên năm 4
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="section">
-                <h2>DỰ ÁN</h2>
-                <div class="timeline-item">
-                    <ul>
-                        <li><strong>Website y tế và chăm sóc sức khỏe</strong> <br>
-                            <i>back-end developer</i> <br>
-                            6/2/2024 - 20/7/2024 <br>
-                            Website cung cấp thông tin và các dịch vụ y tế nhằm chăm sóc sức khỏe, giúp người dùng tìm kiếm thông tin, mua bán các sản phẩm sức khỏe, tìm bác sĩ, đặt lịch khám bệnh, tư vấn trực tuyến với bác sĩ...
-                        </li>
-                        <li><strong>Website thương mại điện tử</strong> <br>
-                            <i>back-end developer</i> <br>
-                            2/7/2023 - 22/7/2023 <br>
-                            Website cho phép khách hàng mua và bán các loại xe
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="section">
-                <h2>CÁC KỸ NĂNG CHUYÊN MÔN</h2>
-                <ul class="certifications">
-                    <li>Công nghệ: Java, CSS, HTML</li>
-                    <li>Framework: Spring boot</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
         function loadImage(event) {
             const image = document.getElementById('profileImage');
             image.src = URL.createObjectURL(event.target.files[0]);
             image.onload = function() {
-                URL.revokeObjectURL(image.src); // Giải phóng bộ nhớ
+                URL.revokeObjectURL(image.src);
             }
         }
     </script>
+    <script src="../script.js"></script>
+</head>
+<body class="bg-gray-100" onload="loadNavbar()">
+    <div id="navbar-container"></div>
+    <div class="max-w-4xl mx-auto my-10 bg-white shadow-lg flex rounded-lg overflow-hidden">
+        <!-- Cột trái -->
+        <div class="w-1/3 bg-gray-800 text-white p-6">
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold border-b border-yellow-400 pb-2">THÔNG TIN CÁ NHÂN</h2>
+                <p class="mt-2"><i class="fas fa-calendar-alt mr-2 text-yellow-400"></i> Năm sinh: 15/04/2003</p>
+                <p><i class="fas fa-phone mr-2 text-yellow-400"></i> 0773159764</p>
+                <p><i class="fas fa-envelope mr-2 text-yellow-400"></i> dfj33231@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt mr-2 text-yellow-400"></i> Biên Hòa</p>
+            </div>
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold border-b border-yellow-400 pb-2">MÔ TẢ BẢN THÂN</h2>
+                <p class="mt-2 text-sm">Năng động, không ngại thử thách, luôn cố gắng hoàn thành tốt công việc.</p>
+            </div>
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold border-b border-yellow-400 pb-2">KỸ NĂNG</h2>
+                <ul class="mt-2 text-sm space-y-1">
+                    <li>- HTML, CSS, Java, Spring Boot</li>
+                    <li>- Làm việc nhóm, quản lý thời gian</li>
+                    <li>- Tiếng Anh</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Cột phải -->
+        <div class="w-2/3 p-6">
+            <div class="text-center mb-6">
+                <h1 class="text-3xl font-bold text-gray-800">TRẦN BẢO KHANH</h1>
+                <p class="text-yellow-500 text-lg">MOBILE APP DEVELOPER</p>
+            </div>
+            <div class="text-center mb-6">
+                <img id="profileImage" class="w-24 h-24 rounded-full mx-auto border-4 border-yellow-400" src="../assets/images/1.jpg" alt="Ảnh hồ sơ">
+                <input type="file" class="mt-2 text-sm" accept="image/*" onchange="loadImage(event)">
+            </div>
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold text-gray-800 border-b border-gray-300 pb-2">MỤC TIÊU NGHỀ NGHIỆP</h2>
+                <p class="mt-2 text-sm">Luôn cố gắng hết mình để phát triển và triển khai những dự án mang giá trị lớn.</p>
+            </div>
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold text-gray-800 border-b border-gray-300 pb-2">HỌC VẤN</h2>
+                <p class="mt-2 text-sm"><strong>Đại học Công Nghệ TP. HCM</strong> (2021 - 2025)</p>
+                <p class="text-sm">Chuyên ngành Công nghệ Thông tin</p>
+            </div>
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold text-gray-800 border-b border-gray-300 pb-2">DỰ ÁN</h2>
+                <p class="mt-2 text-sm"><strong>Website Y tế & Chăm sóc sức khỏe</strong> (2024)</p>
+                <p class="text-sm">Back-end developer - Hỗ trợ đặt lịch khám bệnh, tư vấn trực tuyến.</p>
+                <p class="mt-2 text-sm"><strong>Website Thương mại điện tử</strong> (2023)</p>
+                <p class="text-sm">Back-end developer - Mua bán các loại xe.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
