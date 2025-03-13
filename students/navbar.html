@@ -1,0 +1,25 @@
+<!-- navbar.html -->
+<nav class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-gray-800">My Portfolio</h1>
+    <ul class="flex space-x-6">
+        <li class="relative">
+            <button onclick="toggleDropdown()" class="text-gray-600 hover:text-blue-500 focus:outline-none">
+                Teams ▼
+            </button>
+            <ul id="dropdownMenu" class="absolute left-0 mt-2 w-40 bg-white border rounded-lg shadow-lg hidden">
+                <li><a href="#about" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">About Me</a></li>
+                <li><a href="#team" class="block px-4 py-2 text-gray-700 hover:bg-blue-100">Our Team</a></li>
+            </ul>
+        </li>
+        <li><a href="#education" class="text-gray-600 hover:text-blue-500">Education</a></li>
+        <li><a href="#skills" class="text-gray-600 hover:text-blue-500">Skills</a></li>
+        <li><a href="#projects" class="text-gray-600 hover:text-blue-500">Projects</a></li>
+        <li><a href="#contact" class="text-gray-600 hover:text-blue-500">Contact</a></li>
+    </ul>
+</nav>
+
+<script>
+function toggleDropdown() {
+    document.getElementById("dropdownMenu").classList.toggle("hidden");
+}
+</script>

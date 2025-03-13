@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100" onload="loadNavbar()">
+    
+    <div id="navbar-container"></div>
+
+    <!-- Hero Section -->
+    <section id="about" class="text-center py-16 bg-blue-500 text-white">
+        <img src="../assets/images/ava.jpg" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto shadow-lg">
+        <h2 class="text-4xl font-bold mt-4">Phạm Huỳnh Ngọc Hiếu</h2>
+        <p class="text-lg mt-2 font-semibold">Backend Developer | Software Engineer</p>
+        <p class="mt-4 max-w-xl mx-auto text-lg">
+            Xin chào! Tôi là một lập trình viên backend với niềm đam mê xây dựng các hệ thống web mạnh mẽ và tối ưu.
+            Tôi có kinh nghiệm làm việc với nhiều công nghệ backend như Node.js, Java Spring Boot, và PHP Laravel.
+        </p>
+        <p class="mt-4 max-w-xl mx-auto text-lg font-semibold">Mục tiêu của tôi là tạo ra những sản phẩm công nghệ giúp giải quyết các vấn đề thực tiễn.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-16 bg-white text-center">
+        <h2 class="text-3xl font-bold">Education</h2>
+        <p class="mt-2 text-gray-600 font-semibold">Hutech University (2020 - 2024)</p>
+        <p class="mt-2 text-gray-500">Ngành học: Kỹ thuật phần mềm</p>
+        <p class="mt-2 text-gray-500">Điểm trung bình: 8.5/10</p>
+        <h3 class="text-xl font-semibold mt-6">Các khóa học & chứng chỉ:</h3>
+        <ul class="mt-2 text-gray-600">
+            <li>✔️ Chứng chỉ Java Spring Boot nâng cao</li>
+            <li>✔️ Chứng chỉ Full-stack Web Development</li>
+            <li>✔️ Khóa học lập trình Microservices với Node.js</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-100 text-center">
+        <h2 class="text-3xl font-bold">Skills</h2>
+        <div class="flex flex-wrap justify-center mt-6 gap-4">
+            <span class="px-4 py-2 bg-blue-500 text-white rounded-full">JavaScript</span>
+            <span class="px-4 py-2 bg-blue-500 text-white rounded-full">React</span>
+            <span class="px-4 py-2 bg-blue-500 text-white rounded-full">Node.js</span>
+            <span class="px-4 py-2 bg-blue-500 text-white rounded-full">Java Spring Boot</span>
+            <span class="px-4 py-2 bg-blue-500 text-white rounded-full">MongoDB</span>
+            <span class="px-4 py-2 bg-blue-500 text-white rounded-full">MySQL</span>
+            <span class="px-4 py-2 bg-blue-500 text-white rounded-full">Docker</span>
+            <span class="px-4 py-2 bg-blue-500 text-white rounded-full">RESTful API</span>
+            <span class="px-4 py-2 bg-blue-500 text-white rounded-full">Firebase</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white text-center">
+        <h2 class="text-3xl font-bold">Projects</h2>    
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">E-commerce Website</h3>
+                <p class="text-gray-600">Một hệ thống bán hàng trực tuyến với giỏ hàng, thanh toán VNPay.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1v7T287-ikP1m7dEUbs2n1SbbLEqkMd1ZA&s" style="margin-left: 90px;" class="mt-4 rounded-lg shadow-md">
+            </div>
+            <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">Blockchain-Based Verification</h3>
+                <p class="text-gray-600">Ứng dụng xác thực giao dịch dựa trên blockchain.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFaHKLfkyLfxJCZUngrmC7gbjb0Wg1fJOOuuiQWAfAmG-dngozU94eDgf5GD-g73-hwDs&usqp=CAU" style="margin-left: 30px;" class="mt-4 rounded-lg shadow-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100 text-center">
+        <h2 class="text-3xl font-bold">Contact</h2>
+        <p class="mt-2 text-gray-600">Bạn có thể liên hệ với tôi qua:</p>
+        <div class="mt-6 space-x-4">
+            <a href="mailto:ngochieu.dev@example.com" class="text-blue-500">📧 Email</a>
+            <a href="https://linkedin.com/in/ngochieu" class="text-blue-500">🔗 LinkedIn</a>
+            <a href="https://github.com/ngochieu" class="text-blue-500">🐙 GitHub</a>
+        </div>
+        <h3 class="text-xl font-semibold mt-6">Gửi tin nhắn cho tôi:</h3>
+        <form class="mt-4 max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+            <input type="text" placeholder="Tên của bạn" class="w-full p-2 border rounded-md mb-3">
+            <input type="email" placeholder="Email" class="w-full p-2 border rounded-md mb-3">
+            <textarea placeholder="Tin nhắn" class="w-full p-2 border rounded-md mb-3"></textarea>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Gửi</button>
+        </form>
+    </section>
+
+    <script src="../script.js"></script>
+</body>
+</html>
