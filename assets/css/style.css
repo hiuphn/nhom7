@@ -1,0 +1,16 @@
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Để không bị tràn ra ngoài nếu quá nhiều phần tử */
+    gap: 20px;
+    /* Tạo khoảng cách giữa các item */
+    justify-content: center;
+    /* Căn giữa các phần tử */
+}
+
+.item {
+    flex: 1;
+    /* Để các phần tử co giãn linh hoạt */
+    max-width: 250px;
+    /* Giới hạn chiều rộng mỗi item */
+}
