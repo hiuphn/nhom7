@@ -1,0 +1,105 @@
+/* CSS trình */
+/* Reset CSS để loại bỏ margin, padding mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Cấu hình container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: linear-gradient(120deg, #2980b9, #6dd5fa);
+    color: white;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Avatar */
+.avatar {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #2980b9;
+    margin: 20px auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+/* Các phần section */
+.section {
+    background: white;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h2 {
+    font-size: 1.8rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+/* Danh sách */
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+
+/* Liên kết */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1a5276;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 30px;
+}
+
+.avatar {
+    display: block;
+    width: 150px; /* Điều chỉnh kích thước ảnh */
+    height: 150px; /* Đảm bảo ảnh có tỷ lệ vuông */
+    border-radius: 50%; /* Làm ảnh tròn */
+    margin: 0 auto 20px; /* Căn giữa và tạo khoảng cách dưới */
+    object-fit: cover; /* Cắt ảnh nếu quá to */
+    border: 3px solid #ddd; /* Viền nhẹ cho ảnh */
+}
